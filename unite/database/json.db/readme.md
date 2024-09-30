@@ -1,0 +1,1 @@
+Note: this JSON database management is still work in progress, it contains errors. I suggest not to use it at the current framework version.

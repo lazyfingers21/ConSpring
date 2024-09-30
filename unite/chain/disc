@@ -1,0 +1,4 @@
+<?php
+$billingperiod = new BillingPeriod;
+print_r(DB::all($billingperiod));
+?>
