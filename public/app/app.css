@@ -1,0 +1,140 @@
+/* Handles All Framework's CSS */
+.login-container{
+    /* background-color: rgba(0, 128, 0, 0.082); */
+    box-shadow: inset 0 0 0 #00000013, 0px 0px 10px 2px rgb(172, 172, 172);
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-top: solid 5px #008bdb;
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-container a{
+    text-decoration: none;
+}
+.login-container .login-menu{
+    line-height: 50px;
+}
+.login-header{
+    display: flex;
+}
+.login-header img{
+    width: 80px;
+    margin-right: 10px;
+}
+.login-header div h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.login-header div h4{
+    font-family: quin;
+    font-weight: bolder;
+}
+.sidebar-container{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 0 #00000013, 0px 0px 10px 2px rgb(160, 160, 160);
+    height: 100vh;
+    position: fixed;
+}
+.sidebar-container a{
+    display: block;
+    width: 100% !important;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 25px;
+    transition: 0.5s;
+    color: #008bdb;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 50px;
+    border-bottom: solid 1px white;
+}
+.sidebar-container a:hover{
+    color: white;
+    background: #008bdb;
+}
+.sidebar-container h5{
+   font-family: cursive; 
+   line-height: 30px;
+   font-weight: bolder;
+    padding-left: 50px;
+}
+.sidebar-header{
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
+.sidebar-header img{
+    width: 60px;
+    margin-right: 8px;
+}
+.sidebar-header div h3{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.sidebar-header div h4{
+    font-size: 20px;
+    font-family: quin;
+}
+.sidebar-user{
+    color: white;
+    border-bottom: solid 1px gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.admin-header{
+    background-color: #343a40;
+}
+.treasurer-header{
+    background-color: #28a745;
+}
+.user-header{
+    background-color: #6610f2;
+}
+.isActive{
+	position: relative;
+    color: white !important;
+  	background: #008bdbb6;
+  	transition: all 500ms;
+}
+.isActive::after{
+	content: "";
+	top: 0;
+	right: 0;
+	width: 2%;
+	position: absolute;
+	background: #008bdb;
+	height: 100%;
+}
+.admin-display-container{
+    margin-left: 300px;
+}
+.pane-header{
+    padding: 10px;
+    color: #008bdb;
+    font-weight: bolder;
+    border-bottom: solid 1px gray;
+    background-color: white;
+}
+#time{
+    text-transform: uppercase;
+    font-size: 70px;
+}
+#date{
+    font-size: 35px;
+}
+.menu{
+    border-top: solid .5px #c2c2c2;
+    border-bottom: solid .5px #c2c2c2;
+    background-color: rgb(231, 231, 231);
+}
+@font-face {
+    font-family: quin;
+    src: url("../root/file/Quindelia.ttf");
+}
